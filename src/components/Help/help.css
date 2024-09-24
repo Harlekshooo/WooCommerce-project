@@ -1,0 +1,295 @@
+
+
+.helpContainer{
+    margin-top:5rem;
+}
+
+.helpInnerContainer{
+    width:87%;
+    margin:auto;
+}
+
+.helpHeader{
+    text-align:center;
+    font-family: "Inter", sans-serif;
+    font-size:1.5rem;
+    font-weight:600;
+    color:#2c3338;
+}
+
+.helpBody{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding-top:2rem;
+}
+
+.helpSell{
+    background-color:#f7f6f6;
+    padding:3rem 1.5rem 0;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    border-radius:0.5rem;
+}
+
+.helpCardHeader{
+    text-align:center;
+    color:#2c3338;
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.helpCardParagraph{
+    text-align:center;
+    color:#646870;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    line-height:1.5rem;
+    padding-top:1rem;
+}
+
+.helpCardBtnContainer{
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+}
+
+.helpCardBtn{
+    height:3rem;
+    width:8rem;
+    font-size:1rem;
+    font-weight:600;
+    color:#7f54b3;
+    border:0.15rem solid #7f54b3;
+    border-radius:0.5rem;
+}
+
+.helpCardImgContainer{
+    width:87%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+
+.helpCardImg{
+    width:100%;
+}
+
+.helpBuild{
+    background-color:#f7f6f6;
+    padding:3rem 1.5rem 0;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    border-radius:0.5rem;
+}
+
+.helpPower{
+    background-color:#f7f6f6;
+    padding:2rem 1.5rem 0;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    border-radius:0.5rem;
+    background-color:#ffdcf8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .helpInnerContainer{
+        width:90%;
+        margin:auto;
+    }
+
+    .helpHeader{
+        font-size:1.6rem;
+    }
+
+    .helpCardHeader{
+        font-size:1.15rem;
+        font-weight:600;
+    }
+
+    .helpCardParagraph{
+        font-size:1.05rem;
+    }
+
+    .helpCardBtn{
+        width:8.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .helpSell{
+        padding:3rem 1rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .helpHeader{
+        font-size:1.7rem;
+    }
+
+    .helpCardHeader{
+        font-size:1.2rem;
+        font-weight:600;
+    }
+
+    .helpCardParagraph{
+        font-size:1rem;
+    }
+
+    .helpCardImgContainer{
+        width:85%;
+        margin:auto;
+        display:flex;
+        justify-content:center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .helpInnerContainer{
+        width:85%;
+    }
+
+    .helpHeader{
+        font-size:1.9rem;
+    }
+
+    .helpCardHeader{
+        font-size:1.3rem;
+    }
+
+    .helpCardParagraph{
+        font-size:1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .helpInnerContainer{
+        width:85%;
+    }
+
+    .helpHeader{
+        font-size:2.2rem;
+    }
+
+    .helpBody{
+        flex-direction:row;
+    }
+
+    .helpSell{
+        gap:5.2rem;
+    }
+
+    .helpCardHeader{
+        font-size:1.3rem;
+    }
+
+    .helpCardParagraph{
+        font-size:1.1rem;
+    }
+
+    .helpPower{
+        padding:3rem 1.5rem 0;
+        gap:5.2rem;
+    }
+}
+
+

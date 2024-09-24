@@ -1,0 +1,384 @@
+
+
+.platformContainer{
+    padding:9rem 0 4rem;
+    background-color:#f9f9f9;
+}
+
+.platformInnerContainer{
+    width:85%;
+    margin:auto;
+}
+
+.platformHeader{
+    font-size:2rem;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    color:#2c3338;
+    text-align:center;
+}
+
+.platformHeaderImg{
+    width:2rem;
+}
+
+.ratingsContainer{
+    display:flex;
+    flex-direction:column;
+    padding-top:4rem;
+    gap:1.5rem;
+}
+
+.firstRatingCard{
+    background-color:#fff;
+    padding:0rem 1.5rem 1rem;
+}
+
+.firstRatingNumber{
+    font-size:9rem;
+    font-family: "Outfit", sans-serif;
+    font-weight:300;
+    color:#2c3338;
+    /* line-height:10rem; */
+}
+
+.firstRatingValue{
+    font-size:6rem;
+}
+
+.ratingParagraph{
+    font-size:2.4rem;
+    font-family: "Outfit", sans-serif;
+    color:#2c3338;
+    width:85%;
+    line-height:2.8rem;
+    overflow-wrap:break-word;
+}
+
+.ratingFooter{
+    color:#bbbbbb;
+    padding-top:2rem;
+    font-family: "Outfit", sans-serif;
+    font-size:1.1rem;
+    width:90%;
+    overflow-wrap:break-word;
+}
+
+.ratingLink{
+    color:#bbbbbb;
+}
+
+.secondRatingCard{
+    background-color:#fff;
+    padding:0rem 1.5rem 1rem;
+}
+
+.ratingNumber{
+    font-size:9rem;
+    font-family: "Outfit", sans-serif;
+    font-weight:300;
+    color:#2c3338;
+    /* line-height:10rem; */
+}
+
+.ratingValue{
+    font-size:6rem;
+}
+
+.thirdRatingCard{
+    background-color:#fff;
+    padding:0rem 1.5rem 1rem;
+}
+
+.thirdRatingNumber{
+    font-size:8rem;
+    font-family: "Outfit", sans-serif;
+    font-weight:300;
+    color:#2c3338;
+    overflow-wrap:break-word;
+    /* line-height:10rem; */
+}
+
+.thirdRatingValue{
+    font-size:6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .platformHeader{
+        font-size:2.1rem;
+    }
+
+    .firstRatingNumber{
+        font-size:8rem;
+    }
+    
+    .firstRatingValue{
+        font-size:5rem;
+    }
+
+    .ratingParagraph{
+        width:100%;
+    }
+
+    .ratingFooter{
+        width:100%;
+        overflow-wrap:normal;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .platformHeader{
+        font-size:2.3rem;
+    }
+
+    .firstRatingNumber{
+        font-size:8rem;
+    }
+    
+    .firstRatingValue{
+        font-size:5rem;
+    }
+
+    .ratingParagraph{
+        width:100%;
+    }
+
+    .ratingFooter{
+        width:100%;
+        overflow-wrap:normal;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .platformInnerContainer{
+        width:92%;
+    }
+
+    .platformHeader{
+        font-size:2.1rem;
+    }
+
+    .ratingsContainer{
+        padding-top:6.5rem;
+    }
+
+    .firstRatingNumber{
+        font-size:9rem;
+        font-weight:400;
+    }
+    
+    .firstRatingValue{
+        font-size:6rem;
+    }
+
+    .ratingNumber{
+        font-size:9rem;
+        font-weight:400;
+    }
+    
+    .ratingValue{
+        font-size:5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .platformInnerContainer{
+        width:92%;
+    }
+
+    .platformHeader{
+        font-size:2.9rem;
+    }
+
+    .platformHeaderImg{
+        width:3rem;
+    }
+
+    .ratingsContainer{
+        padding-top:5rem;
+    }
+
+    .firstRatingNumber{
+        font-size:7.5rem;
+        font-weight:400;
+    }
+    
+    .firstRatingValue{
+        font-size:4.5rem;
+    }
+
+    .ratingNumber{
+        font-size:7.5rem;
+        font-weight:400;
+    }
+    
+    .ratingValue{
+        font-size:4.5rem;
+    }
+
+    .ratingParagraph{
+        width:35%;
+        font-size:1.5rem;
+        font-weight:300;
+        line-height:1.5rem;
+    }
+
+    .ratingLink{
+        color:#674399;
+    }
+    
+    .ratingFooter{
+        color:#bbbbbb;
+        padding-top:2rem;
+        font-family: "Outfit", sans-serif;
+        font-size:0.75rem;
+        width:90%;
+        overflow-wrap:break-word;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .platformInnerContainer{
+        width:92%;
+    }
+
+    .platformHeader{
+        font-size:3rem;
+        width:90%;
+        margin:auto;
+    }
+
+    .ratingsContainer{
+        padding-top:5rem;
+        flex-direction:row;
+    }
+
+    .ratingNumber{
+        font-size:7.5rem;
+        font-weight:400;
+    }
+    
+    .ratingValue{
+        font-size:4.5rem;
+    }
+
+    .ratingParagraph{
+        width:70%;
+        font-size:1.3rem;
+    }
+
+    .ratingLink{
+        color:#674399;
+    }
+    
+    .ratingFooter{
+        color:#bbbbbb;
+        padding-top:2rem;
+        font-family: "Outfit", sans-serif;
+        font-size:0.75rem;
+        width:90%;
+        overflow-wrap:break-word;
+    }
+}
+
+
+
+
+

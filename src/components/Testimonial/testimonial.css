@@ -1,0 +1,215 @@
+
+
+.testimonialContainer{
+    margin:4rem 0 6rem;
+}
+
+.testimonialInnerContainer{
+    width:80%;
+    margin:auto;
+}
+
+.testimonialParagraph{
+    font-family: "Inter", sans-serif;
+    font-size:2rem;
+    color:#2c3338;
+    line-height:3rem;
+    text-align:center;
+}
+
+.testimonialContact{
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    gap:0.5rem;
+    width:80%;
+    margin:auto;
+    margin-top:3rem;
+    text-decoration:none;
+}
+
+.testimonialImgContainer{
+    width:4rem;
+}
+
+.testimonialImg{
+    width:100%;
+}
+
+.testimonialDetailContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:0.5rem;
+}
+
+.testimonialName{
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    font-size:1.1rem;
+    color:#656363;
+}
+
+.testimonialDirectLink{
+    font-family: "Inter", sans-serif;
+    font-weight:400;
+    font-size:0.9rem;
+    color:#656363;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .testimonialParagraph{
+        font-family: "Inter", sans-serif;
+        font-size:2.1rem;
+        color:#2c3338;
+        line-height:3rem;
+        text-align:center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .testimonialParagraph{
+        line-height:2.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .testimonialParagraph{
+        line-height:3rem;
+        width:92%;
+        margin:auto;
+    }
+
+    .testimonialContact{
+        flex-direction:row;
+        gap:0.5rem;
+    }
+
+    .testimonialImgContainer{
+        width:3.8rem;
+    }
+
+    .testimonialDetailContainer{
+        flex-direction:row;
+        gap:0.2rem;
+    }
+
+    .testimonialDirectLink{
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .testimonialParagraph{
+        font-size:2rem;
+        width:95%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .testimonialParagraph{
+        font-size:2rem;
+        width:90%;
+    }
+}
+

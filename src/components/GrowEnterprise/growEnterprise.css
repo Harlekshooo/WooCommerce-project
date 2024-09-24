@@ -1,0 +1,314 @@
+
+
+.growEnterpriseContainer{
+    background-color:#003c54;
+}
+
+.growEnterpriseInnerComtainer{
+    padding:5rem 0 3rem;
+    width:87%;
+    margin:auto;
+}
+
+.growEnterpriseHeader{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size:2.1rem;
+    font-weight:600;
+    line-height:2.5rem;
+}
+
+.growEnterpriseParagraph{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    line-height:1.5rem;
+    padding-top:1.5rem;
+}
+
+.growEnterpriseServiceContainer{
+    margin-top:5rem;
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+}
+
+.growEnterpriseServiceCard{
+    display:flex;
+    gap:1.5rem;
+}
+
+.growEnterpriseServiceIcon{
+    color:#ccc8c8;
+    font-size:2rem;
+}
+
+.growEnterpriseServiceDetails{
+    padding-top:0.5rem;
+}
+
+.growEnterpriseServiceHeader{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    line-height:1.5rem;
+}
+
+.growEnterpriseServiceMessage{
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    line-height:1.5rem;
+    padding-top:1rem;
+}
+
+.growEnterpriseBtn{
+    height:3.5rem;
+    width:11rem;
+    border-radius:0.5rem;
+    border:none;
+    margin-top:6rem;
+    color:#7f54b3;
+    font-size:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .growEnterpriseInnerComtainer{
+        width:90%;
+    }
+
+    .growEnterpriseHeader{
+        font-size:2.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .growEnterpriseInnerComtainer{
+        width:93%;
+    }
+
+    .growEnterpriseHeader{
+        font-size:2.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .growEnterpriseInnerComtainer{
+        padding:7rem 0 3rem;
+        width:84%;
+    }
+
+    .growEnterpriseHeader{
+        font-size:2.5rem;
+    }
+
+    .growEnterpriseParagraph{
+        font-size:1.2rem;
+    }
+
+    .growEnterpriseServiceHeader{
+        font-size:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .growEnterpriseInnerComtainer{
+        padding:7rem 0 3rem;
+        width:87%;
+    }
+
+    .growEnterpriseHeader{
+        font-size:2.8rem;
+    }
+
+    .growEnterpriseParagraph{
+        font-size:1.2rem;
+        width:75%;
+    }
+
+    .growEnterpriseServiceContainer{
+        margin-top:5rem;
+        display:grid;
+        grid-template-columns:auto auto;
+        column-gap:6rem;
+        row-gap:5rem;
+    }
+
+    .growEnterpriseServiceCard{
+        width:85%;
+    }
+
+    .growEnterpriseServiceHeader{
+        font-size:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px) {
+
+    .growEnterpriseHeader{
+        font-size:2.9rem;
+    }
+
+    .growEnterpriseParagraph{
+        font-size:1.2rem;
+        width:71%;
+    }
+
+    .growEnterpriseServiceMessage{
+        font-size:1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    .growEnterpriseInnerComtainer{
+        padding:7rem 0 3rem;
+        width:87%;
+    }
+
+    .growEnterpriseHeader{
+        font-size:3rem;
+    }
+
+    .growEnterpriseParagraph{
+        font-size:1.3rem;
+        line-height:1.6rem;
+        width:71%;
+    }
+}
+
+
+
+

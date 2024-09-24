@@ -1,0 +1,237 @@
+
+
+.heroContainer{
+    margin-top:5rem;
+}
+
+.heroInnerContainer{
+    width:87%;
+    margin:auto;
+}
+
+.heroHeader{
+    font-family: "Inter", sans-serif;
+    color:#2c3338;
+    text-align:center;
+    font-size:2rem;
+    font-weight:500;
+}
+
+.heroParagraph{
+    font-family: "Inter", sans-serif;
+    font-size:0.85rem;
+    line-height:1.2rem;
+    margin-top:1rem;
+    color:#646970;
+    text-align:center;
+}
+
+.heroBtnContainer{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+}
+
+.heroBtn{
+    height:3.5rem;
+    width:10rem;
+    background-color:#7f54b3;
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    font-size:1.3rem;
+    font-weight:500;
+    border:none;
+    border-radius:0.5rem;
+}
+
+.heroCreate{
+    margin-top:2.5rem;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    color:#101517;
+    text-align:center;
+}
+
+.heroLink{
+    color:#7f54b3;
+    font-weight:700;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .heroHeader{
+        font-size:2.2rem;
+        line-height:2rem;
+    }
+
+    .heroParagraph{
+        font-size:0.9rem;
+    }
+
+    .heroCreate{
+        font-size:1.1rem;
+        line-height:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .heroParagraph{
+        line-height:1.5rem;
+    }
+
+    .heroCreate{
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .heroHeader{
+        font-size:2.5rem;
+        line-height:2.3rem;
+    }
+
+    .heroParagraph{
+        line-height:1.5rem;
+        font-size:1rem;
+    }
+
+    .heroCreate{
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .heroContainer{
+        margin-top:7rem;
+    }
+
+    .heroHeader{
+        font-size:3rem;
+        line-height:2.8rem;
+        width:60%;
+        margin:auto;
+    }
+
+    .heroParagraph{
+        line-height:1.5rem;
+        font-size:1rem;
+        width:60%;
+        margin:auto;
+        margin-top:1.8rem;
+    }
+
+    .heroBtn{
+        font-size:1.32rem;
+    }
+
+    .heroCreate{
+        font-size:1rem;
+        width:60%;
+        margin:auto;
+        margin-top:2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .heroContainer{
+        margin-top:7rem;
+    }
+
+    .heroHeader{
+        font-size:3.35rem;
+        line-height:3rem;
+    }
+
+    .heroParagraph{
+        line-height:1.6rem;
+        font-size:1.1rem;
+    }
+}
+
+

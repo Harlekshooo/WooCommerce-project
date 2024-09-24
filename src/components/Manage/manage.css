@@ -1,0 +1,266 @@
+
+
+.manageContainer{
+    background-color:#003c54;
+    background-image:url('../../assets/manage-image.svg');
+    background-repeat:no-repeat;
+    background-position:bottom;
+    /* background-size:cover; */
+}
+
+.manageInnerContainer{
+    padding:5rem 0;
+    width:87%;
+    margin:auto;
+}
+
+.manageHeader{
+    font-family: "Inter", sans-serif;
+    font-size:2rem;
+    font-weight:600;
+    color:#fff;
+    text-align:center;
+}
+
+.manageParagraph{
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    font-weight:500;
+    color:#fff;
+    text-align:center;
+    padding-top:2rem;
+}
+
+.manageBtnContainer{
+    display:flex;
+    justify-content:center;
+    padding-top:2rem;
+}
+
+.manageBtn{
+    height:3.5rem;
+    width:11rem;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    font-weight:500;
+    color:#7f54b3;
+    border:none;
+    border-radius:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .manageInnerContainer{
+        width:89%;
+    }
+
+    .manageParagraph{
+        line-height:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .manageInnerContainer{
+        width:92%;
+    }
+
+    .manageHeader{
+        font-size:2.2rem;
+    }
+
+    .manageParagraph{
+        line-height:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .manageInnerContainer{
+        width:92%;
+    }
+
+    .manageHeader{
+        font-size:2.4rem;
+    }
+
+    .manageParagraph{
+        line-height:1.5rem;
+        font-size:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .manageHeader{
+        font-size:2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .manageInnerContainer{
+        width:77%;
+    }
+
+    .manageHeader{
+        font-size:2.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px){
+
+    .manageInnerContainer{
+        width:74%;
+    }
+
+    .manageHeader{
+        font-size:2.9rem;
+    }
+
+    .manageParagraph{
+        line-height:1.5rem;
+        font-size:1.3rem;
+        width:80%;
+        margin:auto;
+    }
+}

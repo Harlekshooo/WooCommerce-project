@@ -1,0 +1,279 @@
+
+
+.footerContainer{
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+
+.footerInnerContainer{
+    width:100%;
+}
+
+.footerListContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+    width:80%;
+    margin:auto;
+    padding-bottom:2rem;
+}
+
+.footerList{
+    text-align:center;
+    line-height:2rem;
+}
+
+.footerHeader{
+    text-transform:uppercase;
+    font-size:0.9rem;
+    font-family: "Inter", sans-serif;
+    color:#333333;
+    margin-bottom:0.5rem;
+
+}
+
+.footerParagraph{
+    font-size:0.9rem;
+    font-family: "Inter", sans-serif;
+    color:#333333;
+    text-decoration:none;
+}
+
+.footerLine{
+    width:70%;
+    margin:auto;
+    margin-bottom:1.5rem;
+}
+
+.footerEnding{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* gap:2rem; */
+    width:100%;
+}
+
+.footerSocials{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+}
+
+.footerIcon{
+    font-size:1.5rem;
+    color:#674399;
+}
+
+.footerCopyright{
+    padding-top:0.5rem;
+}
+
+.copyRight{
+    text-transform:uppercase;
+    font-size:0.7rem;
+    font-family: "Inter", sans-serif;
+    color:#333333;
+    text-align:center;
+}
+
+.policyContainer{
+    width:80%;
+    margin:auto;
+    text-align:center;
+}
+
+.copyLink{
+    /* width:100%; */
+    overflow-wrap:break-word;
+    text-transform:uppercase;
+    font-size:0.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight:bolder;
+    color:#333333;
+}
+
+.privacyCopyLink{
+    /* width:100%; */
+    overflow-wrap:break-word;
+    text-transform:uppercase;
+    font-size:0.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight:700;
+    color:#333333;
+    margin:0rem 0.7rem;
+}
+
+.footerAutomattic{
+    margin-top:1rem;
+    width:35%;
+}
+
+.automatticImg{
+   width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .footerList{
+        text-align:center;
+        line-height:1.7rem;
+    }
+
+    .footerHeader{
+        font-size:0.8rem;
+        text-transform:uppercase;
+        font-family: "Inter", sans-serif;
+        color:#333333;
+        margin-bottom:0.5rem;
+    
+    }
+    
+    .footerParagraph{
+        font-size:0.8rem;
+        font-family: "Inter", sans-serif;
+        color:#333333;
+        text-decoration:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .footerListContainer{
+        gap:1.7rem;
+    }
+
+    .footerList{
+        line-height:1.6rem;
+    }
+
+    .footerHeader{
+        font-size:0.75rem;
+    }
+    
+    .footerParagraph{
+        font-size:0.8rem;
+    }
+
+    .footerAutomattic{
+        width:25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    
+    .footerListContainer{
+        gap:1.7rem;
+        align-items:flex-start;
+    }
+
+    .footerList{
+        text-align:left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+    
+    .footerListContainer{
+        gap:0.2rem;
+        width:90%;
+        align-items:flex-start;
+        flex-direction:row;
+    }
+
+    .footerList{
+        text-align:initial;
+        /* width:100%; */
+    }
+
+    .footerHeader{
+        font-size:0.8rem;
+    }
+
+    .footerEnding{
+        flex-direction:row;
+        justify-content:space-between;
+        width:90%;
+        margin:auto;
+    }
+
+    .policyContainer{
+        width:100%;
+        margin:0;
+        text-align:center;
+    }
+
+    .footerAutomattic{
+        width:15%;
+    }
+}

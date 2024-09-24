@@ -1,0 +1,411 @@
+
+
+.extendContainer{
+    margin:6rem 0 6rem;
+}
+
+.extendInnerContainer{
+    width:85%;
+    margin:auto;
+}
+
+.extendHeader{
+    font-family: "Inter", sans-serif;
+    font-size:2.2rem;
+    font-weight:500;
+    line-height:2.3rem;
+    width:70%;
+}
+
+.extendBody{
+    padding-top:5rem;
+}
+
+.extendSimplify{
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+}
+
+.extendImage{
+    width:100%;
+}
+
+.extendDetailsHeader{
+    font-family: "Inter", sans-serif;
+    font-size:1.6rem;
+    font-weight:600;
+    color:#101517;
+}
+
+.extendDetailsParagraph{
+    padding-top:1rem;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    line-height:1.5rem;
+    color:#101517;
+}
+
+.extendDetailsButton{
+    margin-top:2rem;
+    padding:0 1.5rem 0;
+    line-height:1.5rem;
+    width:100%;
+    height:4.5rem;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    font-weight:500;
+    color:#7f54b3;
+    background-color:#fff;
+    border:0.15rem solid #7f54b3;
+    border-radius:0.5rem;
+}
+
+.extendIntegrate{
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    margin-top:10rem;
+}
+
+.extendMultiple{
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    margin-top:10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .extendHeader{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .extendInnerContainer{
+        width:89%;
+    }
+
+    .extendHeader{
+        font-size:2.25rem;
+    }
+
+    .extendDetailsHeader{
+        font-size:1.77rem;
+    }
+    
+    /* .extendDetailsParagraph{
+        padding-top:1rem;
+        font-family: "Inter", sans-serif;
+        font-size:1rem;
+        line-height:1.5rem;
+        color:#101517;
+    } */
+
+    .extendDetailsButton{
+        height:3rem;
+        width:80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .extendInnerContainer{
+        width:93%;
+    }
+
+    .extendHeader{
+        font-size:2.5rem;
+        line-height:2.5rem;
+        width:80%;
+    }
+
+    .extendDetailsHeader{
+        font-size:1.7rem;
+    }
+    
+    /* .extendDetailsParagraph{
+        padding-top:1rem;
+        font-family: "Inter", sans-serif;
+        font-size:1rem;
+        line-height:1.5rem;
+        color:#101517;
+    } */
+
+    .extendDetailsButton{
+        height:3rem;
+        width:52%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .extendInnerContainer{
+        width:83%;
+    }
+
+    .extendHeader{
+        font-size:2.6rem;
+        line-height:2.5rem;
+        width:100%;
+    }
+
+    .extendDetailsHeader{
+        font-size:1.7rem;
+    }
+    
+    .extendDetailsParagraph{
+        font-size:1.05rem;
+    }
+
+    .extendDetailsButton{
+        height:3rem;
+        width:48%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .extendInnerContainer{
+        width:87%;
+    }
+
+    .extendHeader{
+        font-size:2.6rem;
+        line-height:2.5rem;
+        width:100%;
+    }
+
+    .extendBody{
+        padding-top:8rem;
+    }
+
+    .extendSimplify{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .extendImageContainer{
+        width:50%;
+    }
+
+    .extendDetails{
+        width:45%;
+    }
+
+    .extendDetailsHeader{
+        font-size:1.85rem;
+    }
+    
+    .extendDetailsParagraph{
+        font-size:1.1rem;
+    }
+
+    .extendDetailsButton{
+        height:3rem;
+        width:80%;
+    }
+
+    .extendIntegrate{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+    
+    .extendMultiple{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        align-items:center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .extendInnerContainer{
+        width:87%;
+    }
+
+    .extendHeader{
+        font-size:2.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px) {
+
+    .extendInnerContainer{
+        width:87%;
+    }
+
+    .extendHeader{
+        font-size:2.96rem;
+    }
+}
+
+
+
+
+

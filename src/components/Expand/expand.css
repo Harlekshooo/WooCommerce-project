@@ -1,0 +1,294 @@
+
+
+.expandContainer{
+    padding:6rem 0;
+}
+
+.expandInnerContainer{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+}
+
+.expandParagraph{
+    font-family: "Inter", sans-serif;
+    font-size:1.5rem;
+    line-height:1.9rem;
+    color:#101517;
+}
+
+.expandHeader{
+    text-transform:capitalize;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    line-height:1.9rem;
+    color:#101517;
+    padding-top:1.3rem;
+}
+
+.expandImgContainer{
+    width:9.5rem;
+}
+
+.expandImg{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .expandInnerContainer{
+        gap:2rem;
+    }
+
+    /* .expandParagraph{
+        font-size:1.7rem;
+    } */
+
+    .expandImgContainer{
+        width:11.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .expandInnerContainer{
+        gap:2rem;
+        width:89%;
+    }
+
+    .expandParagraph{
+        font-size:1.6rem;
+    }
+
+    .expandImgContainer{
+        width:13rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .expandInnerContainer{
+        gap:2rem;
+        width:92%;
+    }
+
+    .expandParagraph{
+        font-size:1.6rem;
+    }
+
+    .expandImgContainer{
+        width:20rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .expandInnerContainer{
+        gap:2rem;
+        width:83%;
+    }
+
+    .expandParagraph{
+        font-size:1.6rem;
+    }
+
+    .expandImgContainer{
+        width:22rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .expandInnerContainer{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        gap:0rem;
+        width:80%;
+        margin:auto;
+    }
+
+    .expandParagraph{
+        font-size:1.8rem;
+        line-height:2.1rem;
+        width:100%;
+    }
+
+    .expandDetails{
+        width:65%;
+    }
+
+    .expandImgContainer{
+        width:20%;
+        padding-top:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px) {
+
+    .expandInnerContainer{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        gap:0rem;
+        width:85%;
+        margin:auto;
+    }
+
+    .expandParagraph{
+        font-size:1.8rem;
+        line-height:2.1rem;
+        width:100%;
+    }
+
+    .expandDetails{
+        width:65%;
+    }
+
+    .expandImgContainer{
+        width:20%;
+        padding-top:1.2rem;
+    }
+}
+
+
+

@@ -1,0 +1,164 @@
+
+
+.chargeContainer{
+    margin:6rem 0 0;
+}
+
+.chargeInnerContainer{
+    width:85%;
+    margin:auto;
+}
+
+.chargeMessage{
+    font-size:2rem;
+    font-family: "Inter", sans-serif;
+    line-height:2.8rem;
+    text-align:center;
+    color:#2c3338;
+}
+
+.chargeProfile{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+}
+
+.chargePicContainer{
+    width:4rem;
+}
+
+.chargePic{
+    width:100%;
+}
+
+.chargeDetailContainer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:0.5rem;
+}
+
+.chargeDetailName{
+    text-transform:capitalize;
+    color:#646970;
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+}
+
+.chargeDetailLink{
+    color:#646970;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .chargeInnerContainer{
+        width:80%;
+    }
+
+    .chargeMessage{
+        font-size:2.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .chargeMessage{
+        font-size:2.2rem;
+        font-weight:400;
+        line-height:3rem;
+    }
+
+    .chargeProfile{
+        flex-direction:row;
+        gap:0.8rem;
+    }
+
+    .chargeDetailContainer{
+        gap:0.2rem;
+        flex-direction:row;
+    }
+
+    .chargePicContainer{
+        width:3.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .chargeMessage{
+        font-size:2.1rem;
+        font-weight:400;
+        line-height:3rem;
+    }
+
+    .chargeProfile{
+        flex-direction:row;
+        gap:0.8rem;
+    }
+
+    .chargeDetailContainer{
+        gap:0.2rem;
+        flex-direction:row;
+    }
+
+    .chargePicContainer{
+        width:3.8rem;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,399 @@
+
+
+.reviewsContainer{
+    margin:6rem 0 0;
+}
+
+.reviewsInnerContainer{
+    background:linear-gradient(180deg, rgba(247, 247, 247, 0) 9.05%, rgb(247, 246, 246) 40.74%);
+    padding-bottom:5rem;
+}
+
+.reviewsHeader{
+    font-family: "Inter", sans-serif;
+    font-size:1.6rem;
+    text-align:center;
+    color:#2c3338;
+    width:80%;
+    margin:auto;
+    margin-bottom:6rem;
+}
+
+.reviewsEmoji{
+    width:2.5rem;
+}
+
+.reviewsRowContainer{
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+    margin-bottom:4rem;
+}
+
+.firstRow{
+    display:flex;
+    justify-content:center;
+    gap:3.5rem;
+    overflow-x:hidden;
+}
+
+.secondRow{
+    display:flex;
+    justify-content:center;
+    gap:3.5rem;
+    overflow-x:hidden;
+}
+
+.thirdRow{
+    display:flex;
+    justify-content:center;
+    gap:3.5rem;
+    overflow-x:hidden;
+}
+
+.reviewImages{
+    width:16rem;
+    border-radius:0.7rem;
+}
+
+.reviewsLogoContainer{
+    padding-bottom:5rem;
+}
+
+.reviewLogoRows{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    justify-content:center;
+    align-items:center;
+    column-gap:1.5rem;
+    row-gap:1.5rem;
+}
+
+.reviewLogo{
+    width:3rem;
+}
+
+.reviewLogo7{
+    width:5rem;
+    border-radius:1rem;
+}
+
+.reviewLogo8{
+    width:5rem;
+    border-radius:1rem;
+}
+
+.reviewsBtnContainer{
+    display:flex;
+    justify-content:center;
+}
+
+.reviewsBtn{
+    height:3.5rem;
+    width:11rem;
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    color:#fff;
+    background-color:#7f54b3;
+    border:none;
+    border-radius:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .reviewLogo{
+        width:4rem;
+    }
+    
+    .reviewLogo7{
+        width:6.5rem;
+        border-radius:1rem;
+    }
+    
+    .reviewLogo8{
+        width:6.5rem;
+        border-radius:1rem;
+    }
+
+    .reviewsBtn{
+        font-size:1.1rem;
+        height:4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .reviewsHeader{
+        font-size:1.7rem;
+    }
+
+    .reviewsRowContainer{
+        gap:2.5rem;
+    }
+
+    .reviewImages{
+        width:17.5rem;
+    }
+
+    .reviewsLogoContainer{
+        padding-bottom:3rem;
+    }
+    
+    .reviewLogoRows{
+        grid-template-columns:auto auto auto auto;
+        column-gap:3rem;
+        row-gap:1.5rem;
+    }
+
+    .reviewLogo{
+        width:3.5rem;
+    }
+    
+    .reviewLogo7{
+        width:3.5rem;
+        border-radius:1rem;
+    }
+    
+    .reviewLogo8{
+        width:3.5rem;
+        border-radius:1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .reviewsHeader{
+        font-size:1.8rem;
+    }
+
+    .reviewImages{
+        width:22rem;
+    }
+
+    .reviewsLogoContainer{
+        padding-bottom:3rem;
+    }
+    
+    .reviewLogoRows{
+        grid-template-columns:auto auto auto auto;
+        column-gap:4rem;
+        row-gap:1.5rem;
+    }
+
+    .reviewLogo{
+        width:5rem;
+    }
+    
+    .reviewLogo7{
+        width:7rem;
+        border-radius:0;
+    }
+    
+    .reviewLogo8{
+        width:7rem;
+        border-radius:0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .reviewsHeader{
+        font-size:1.9rem;
+    }
+
+    .reviewsEmoji{
+        width:3rem;
+    }
+
+    .reviewsRowContainer{
+        gap:3rem;
+    }
+
+    .firstRow{
+        gap:4rem;
+    }
+    
+    .secondRow{
+        gap:4rem;
+    }
+    
+    .thirdRow{
+        gap:4rem;
+    }
+
+    .reviewImages{
+        width:22.5rem;
+    }
+
+    .reviewsLogoContainer{
+        padding-bottom:3rem;
+    }
+    
+    .reviewLogoRows{
+        display:flex;
+        justify-content:space-between;
+        row-gap:0;
+        column-gap:0;
+        width:90%;
+        margin:auto;
+    }
+
+    .reviewLogo{
+        width:2rem;
+    }
+    
+    .reviewLogo7{
+        width:2rem;
+        border-radius:0;
+    }
+    
+    .reviewLogo8{
+        width:2rem;
+        border-radius:0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .reviewsHeader{
+        font-size:2.2rem;
+    }
+
+    .reviewsEmoji{
+        width:3rem;
+    }
+
+    .reviewsRowContainer{
+        gap:3rem;
+    }
+
+    .firstRow{
+        gap:4rem;
+    }
+    
+    .secondRow{
+        gap:4rem;
+    }
+    
+    .thirdRow{
+        gap:4rem;
+    }
+
+    .reviewImages{
+        width:26.5rem;
+    }
+
+    .reviewsLogoContainer{
+        padding-bottom:3rem;
+    }
+    
+    .reviewLogoRows{
+        display:flex;
+        justify-content:space-between;
+        row-gap:0;
+        column-gap:0;
+        width:90%;
+        margin:auto;
+    }
+
+    .reviewLogo{
+        width:3.8rem;
+    }
+    
+    .reviewLogo7{
+        width:3.8rem;
+        border-radius:0;
+    }
+    
+    .reviewLogo8{
+        width:3.8rem;
+        border-radius:0;
+    }
+
+}
+
+

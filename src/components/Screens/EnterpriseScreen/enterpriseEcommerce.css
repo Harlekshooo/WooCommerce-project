@@ -1,0 +1,40 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* overflow-y:hidden; */
+}
+
+.headerMainContainer{
+    background-color:#fff;
+    padding:1.5rem 0;
+    position:fixed;
+    z-index:1;
+    width:100%;
+}
+
+.otherComponentsMainContainer{
+    padding-top:6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .headerMainContainer{
+        position:absolute;
+    }
+}

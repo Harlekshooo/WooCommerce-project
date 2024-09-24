@@ -1,0 +1,343 @@
+
+
+.readyContainer{
+    background-color:#f2edff;
+}
+
+.readyInnerContainer{
+    padding:6.5rem 0 4rem;
+    display:flex;
+    flex-direction:column;
+    gap:6rem;
+    width:85%;
+    margin:auto;
+}
+
+.readyIntroContainer{
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.readyIntroHeader{
+    font-family: "Inter", sans-serif;
+    font-size:2.2rem;
+    font-weight:600;
+    line-height:2.2rem;
+    color:#101517;
+}
+
+.readyIntroMessage{
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    line-height:1.6rem;
+    color:#101517;
+}
+
+.cartImgContainer{
+    width:100%;
+    margin-top:3rem;
+}
+
+.cartImg{
+    width:100%;
+}
+
+.objectives{
+    display:flex;
+    gap:1.5rem;
+    padding-bottom:3rem;
+}
+
+.checkedIcon{
+    font-size:1.7rem;
+}
+
+.checkedObjectives{
+    padding-top:0.5rem;
+}
+
+.checkedHeader{
+    font-size:1.15rem;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+    color:#101517;
+}
+
+.checkedParagraph{
+    font-size:1rem;
+    font-family: "Inter", sans-serif;
+    /* font-weight:600; */
+    line-height:1.5rem;
+    color:#101517;
+    padding-top:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .readyInnerContainer{
+        width:87%;
+    }
+
+    .readyIntroHeader{
+        font-size:2.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .readyInnerContainer{
+        width:88%;
+    }
+
+    .readyIntroHeader{
+        font-size:2.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .readyInnerContainer{
+        width:92%;
+    }
+
+    .readyIntroHeader{
+        font-size:2.4rem;
+        line-height:2.6rem;
+    }
+
+    .readyIntroMessage{
+        font-size:1.16rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .readyInnerContainer{
+        width:83%;
+    }
+
+    .readyIntroHeader{
+        font-size:2.5rem;
+        line-height:2.6rem;
+        width:90%;
+    }
+
+    .readyIntroMessage{
+        font-size:1.19rem;
+    }
+
+    .checkedHeader{
+        font-size:1.19rem;
+    }
+    
+    .checkedParagraph{
+        font-size:1.04rem;
+        padding-top:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .readyInnerContainer{
+        width:87%;
+        flex-direction:row;
+        gap:6rem;
+        justify-content:space-between;
+    }
+
+    .readyIntroContainer{
+        width:45%;
+    }
+
+    .readyIntroHeader{
+        font-size:2.6rem;
+        line-height:2.6rem;
+        width:100%;
+    }
+
+    .readyIntroMessage{
+        font-size:1.22rem;
+    }
+
+    .readyListContainer{
+        width:45%;
+    }
+
+    .checkedHeader{
+        font-size:1.22rem;
+    }
+    
+    .checkedParagraph{
+        font-size:1.06rem;
+        padding-top:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px) {
+
+    .readyInnerContainer{
+        width:87%;
+        flex-direction:row;
+        gap:6rem;
+        justify-content:space-between;
+    }
+
+    .readyIntroContainer{
+        width:42%;
+    }
+
+    .readyIntroHeader{
+        font-size:3rem;
+        line-height:3.5rem;
+        width:91%;
+    }
+
+    .readyIntroMessage{
+        font-size:1.24rem;
+    }
+
+    .readyListContainer{
+        width:45%;
+    }
+
+    .checkedHeader{
+        font-size:1.22rem;
+    }
+    
+    .checkedParagraph{
+        font-size:1.06rem;
+        padding-top:1.2rem;
+    }
+}
+

@@ -1,0 +1,372 @@
+
+
+.aboutContainer{
+    margin-top:5rem;
+    margin-bottom:10rem;
+}
+
+.aboutInnerContainer{
+    background:linear-gradient(180deg, rgb(247, 246, 246) 9.05%, rgba(247, 247, 247, 0) 40.74%);
+    padding-top:4rem;
+}
+
+.experts{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:4rem;
+    width:80%;
+    margin:auto;
+}
+
+.aboutInfo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+}
+
+.aboutHeader{
+    font-family: "Inter", sans-serif;
+    font-size:2.3rem;
+    font-weight:600;
+    width:90%;
+    text-align:center;
+    overflow-wrap:break-word;
+    color:#2c3338;
+}
+
+.aboutParagraph{
+    font-family: "Inter", sans-serif;
+    font-size:1rem;
+    color:#101517;
+    line-height:1.5rem;
+    text-align:center;
+    width:90%;
+}
+
+.aboutBtn{
+    height:3.5rem;
+    width:9.5rem;
+    font-size:1.05rem;
+    color:#fff;
+    background-color:#7f54b3;
+    border:none;
+    border-radius:0.5rem;
+}
+
+.aboutImgContainer{
+    width:8.5rem;
+}
+
+.aboutImg{
+    width:100%;
+}
+
+.powerUp{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    gap:4rem;
+    width:80%;
+    margin:auto;
+    margin-top:8rem;
+}
+
+.custom{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:4rem;
+    width:80%;
+    margin:auto;
+    margin-top:8rem;
+}
+
+.customAboutBtn{
+    height:5rem;
+    width:12rem;
+    font-size:1.05rem;
+    color:#fff;
+    background-color:#7f54b3;
+    border:none;
+    border-radius:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px){
+
+    .aboutHeader{
+        font-weight:500;
+        width:100%;
+    }
+
+    .aboutImgContainer{
+        width:12rem;
+    }
+
+    .powerUp{
+        margin-top:9rem;
+    }
+    
+    .custom{
+        margin-top:9rem;
+    }
+
+    .customAboutBtn{
+        height:3.5rem;
+        width:16rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px){
+
+    .experts{
+        width:90%;
+    }
+
+    .aboutHeader{
+        font-weight:500;
+        width:90%;
+        font-size:2.4rem;
+    }
+
+    .aboutParagraph{
+        font-size:1.1rem;
+    }
+
+    .aboutImgContainer{
+        width:15.5rem;
+    }
+
+    .powerUp{
+        margin-top:9rem;
+        gap:0rem;
+    }
+    
+    .custom{
+        margin-top:9rem;
+    }
+
+    .customAboutBtn{
+        height:3.5rem;
+        width:16rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px){
+
+    .experts{
+        width:90%;
+    }
+
+    .aboutHeader{
+        width:65%;
+        font-size:2.5rem;
+    }
+
+    .aboutImgContainer{
+        width:29rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+
+    .experts{
+        width:84%;
+        gap:1rem;
+    }
+
+    .aboutInfo{
+        align-items:flex-start;
+    }
+
+    .aboutHeader{
+        width:69%;
+        font-size:3rem;
+        line-height:3rem;
+        text-align:left;
+    }
+
+    .aboutParagraph{
+        text-align:left;
+        width:100%;
+    }
+
+    .aboutBtn{
+        width:9.8rem;
+    }
+
+    .aboutImgContainer{
+        width:38rem;
+    }
+
+    .powerUp{
+        width:69%;
+    }
+
+    .powerUp .aboutHeader{
+        width:100%;
+        font-size:3rem;
+        line-height:3rem;
+        text-align:left;
+    }
+
+    .powerUp .aboutImgContainer{
+        width:30rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+
+    .experts{
+        width:84%;
+        flex-direction:row;
+        gap:5rem;
+    }
+
+    .aboutInfo{
+        align-items:normal;
+        width:80%;
+    }
+
+    .aboutHeader{
+        width:100%;
+    }
+
+    .aboutParagraph{
+        text-align:left;
+        width:100%;
+    }
+
+    .aboutBtn{
+        width:9.8rem;
+    }
+
+    .aboutImgContainer{
+        width:80%;
+    }
+
+    .custom{
+        flex-direction:row;
+        width:84%;
+        gap:5rem;
+    }
+
+    .powerUp{
+        width:69%;
+        flex-direction:row-reverse;
+        gap:2rem;
+    }
+
+    .powerUp .aboutHeader{
+        width:100%;
+        font-size:3rem;
+        line-height:3rem;
+        text-align:left;
+    }
+
+    .powerUp .aboutImgContainer{
+        width:30rem;
+    }
+}

@@ -1,0 +1,64 @@
+
+
+.resDropdownContainer{
+    background-color:#44424290;
+    height:10000%;
+    position:absolute;
+    z-index:0;
+    top:6rem;
+    width:100%;
+}
+
+.innerResDropDownContainer{
+    /* height:70vh; */
+    background-color:#fff;
+    padding:1rem;
+    width:100%;
+}
+
+.resCategoriesContainer{
+    width:70%;
+    display:flex;
+    gap:4rem;
+    justify-content:left;
+}
+
+.firstResCategories{
+    display:grid;
+    grid-template-columns:auto auto;
+    gap:1.5rem;
+}
+
+.blog{
+    padding:0.5rem;
+}
+
+.resHeader{
+    font-size:1.5rem;
+    font-family: "Inter", sans-serif;
+    color:#101517;
+    font-weight:400;
+}
+
+.resParagraph{
+    font-size:0.9rem;
+    font-family: "Inter", sans-serif;
+    color:#646970;
+    margin-top:0.5rem;
+    line-height:1.5rem;
+}
+
+.guide{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.guideHeader{
+    font-size:1.2rem;
+    font-family: "Inter", sans-serif;
+    color:#101517;
+    font-weight:400;
+    margin-right:5rem;
+}

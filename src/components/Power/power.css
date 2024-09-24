@@ -1,0 +1,364 @@
+
+
+.businessPowerContainer{
+    background-color:#1d2327;
+}
+
+.innerBusinessPowerContainer{
+    padding:5rem 0 6rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    width:85%;
+    margin:auto;
+}
+
+.businessPowerHeader{
+    font-family: "Inter", sans-serif;
+    font-size:2.2rem;
+    font-weight:600;
+    line-height:2.3rem;
+    color:#fff;
+}
+
+.businessPowerMessage{
+    font-family: "Inter", sans-serif;
+    font-size:1.1rem;
+    font-weight:500;
+    line-height:1.5rem;
+    color:#fff;
+    padding-top:2rem;
+}
+
+.businessPersonalDetails{
+    margin-bottom:2rem;
+    height:3.5rem;
+    width:100%;
+    border-radius:0.5rem;
+    font-size:1rem;
+    padding:1rem;
+}
+
+.businessPersonalDetailsOption{
+    margin-bottom:2rem;
+    height:3.5rem;
+    width:100%;
+    border-radius:0.5rem;
+    font-size:1rem;
+    color:#2d2e2dba;
+}
+
+.countrySelect{
+    font-size:1.1rem;
+}
+
+.businessPersonalDetailsMessage{
+    height:6rem;
+    width:100%;
+    border-radius:0.5rem;
+    font-size:1rem;
+    font-family: "Inter", sans-serif;
+    padding:1rem;
+}
+
+.businessVerifyContainer{
+    padding-top:2rem;
+}
+
+.businessVerify{
+    height:1rem;
+    width:1rem;
+}
+
+.businessVerifyMessage{
+    font-size:1rem;
+    color:#fff;
+    font-family: "Inter", sans-serif;
+    line-height:1.5rem;
+}
+
+.businessTouch{
+    margin-top:1rem;
+    color:#fff;
+    font-size:0.9rem;
+    font-weight:400;
+    height:3rem;
+    width:100%;
+    background-color:#674399;
+    border:none;
+    border-radius:0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .innerBusinessPowerContainer{
+        width:87%;
+    }
+
+    .businessPowerMessage{
+        font-size:1.1rem;
+        padding-top:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .innerBusinessPowerContainer{
+        width:89%;
+    }
+
+    .businessPowerMessage{
+        font-size:1.14rem;
+        padding-top:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .innerBusinessPowerContainer{
+        width:92%;
+    }
+
+    .businessPowerHeader{
+        font-size:2.4rem;
+        line-height:2.7rem;
+    }
+
+    .businessPowerMessage{
+        font-size:1.14rem;
+        padding-top:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .innerBusinessPowerContainer{
+        width:83%;
+    }
+
+    .businessPowerHeader{
+        font-size:2.6rem;
+        line-height:2.7rem;
+    }
+
+    .businessPowerMessage{
+        font-size:1.2rem;
+        line-height:1.7rem;
+        padding-top:1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .innerBusinessPowerContainer{
+        flex-direction:row;
+        justify-content:space-between;
+        gap:2rem;
+        width:87%;
+    }
+    
+    .businessPowerIntro{
+        width:40%;
+    }
+
+    .businessPowerHeader{
+        font-size:2.7rem;
+        line-height:2.7rem;
+    }
+
+    .businessPowerMessage{
+        font-size:1.2rem;
+        line-height:1.7rem;
+        padding-top:1.5rem;
+    }
+
+    .businessInputContainer{
+        width:43%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .businessPowerHeader{
+        font-size:2.8rem;
+        line-height:2.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1116px) {
+
+    .businessPowerIntro{
+        width:43%;
+    }
+
+    .businessPowerHeader{
+        font-size:2.9rem;
+        line-height:2.7rem;
+    }
+
+    .businessPowerMessage{
+        font-size:1.23rem;
+    }
+}
+
