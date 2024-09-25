@@ -8,7 +8,7 @@ import { IoSearchSharp } from 'react-icons/io5'
 import Sidebar from "../Sidebar/sidebar";
 import SellDropdown from "../SellDropdown/sellDropdown"
 import ExtDropdown from "../ExtDropdown/extDropdown"
-import ResDropDown from "../ResDropdown/resDropdown"
+import ResDropDown from "../../components/ResDropDown/resDropDown"
 import { useNavigate } from "react-router-dom";
 
 const header = ({ setMenuOpen, menuOpen }) => {
