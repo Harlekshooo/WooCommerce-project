@@ -5,9 +5,9 @@ import { IoMenu } from "react-icons/io5";
 import { FaAngleDown } from "react-icons/fa6"
 import { FaAngleUp } from "react-icons/fa6";
 import { IoSearchSharp } from 'react-icons/io5'
-import Sidebar from "../Sidebar/sidebar";
-import SellDropdown from "../SellDropdown/sellDropdown"
-import ExtDropdown from "../ExtDropdown/extDropdown"
+import Sidebar from "../../components/Sidebar/sidebar";
+import SellDropdown from "../../components/SellDropdown/sellDropdown"
+import ExtDropdown from "../../components/ExtDropdown/extDropdown"
 import ResDropDown from "../../components/ResDropDown/resDropDown"
 import { useNavigate } from "react-router-dom";
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './extDropdown.css'
+import "./extDropdown.css";
 import { IoChevronForwardOutline } from "react-icons/io5";
 
 const extDropdown = () => {
