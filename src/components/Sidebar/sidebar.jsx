@@ -6,7 +6,7 @@ import { IoMdSearch } from "react-icons/io";
 import { MdNavigateNext } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-const sidebar = ({ setMenuOpen }) => {
+const sidebar = ({ menuOpen, setMenuOpen }) => {
 
   const navigate = useNavigate()
 
